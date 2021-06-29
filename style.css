@@ -1,0 +1,39 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+.header{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption{
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20;
+    background-color: white;
+
+    width:310;
+    font-family: fantasy;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
