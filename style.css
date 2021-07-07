@@ -1,0 +1,100 @@
+
+body{
+    background-color: #e6eeff;
+}
+
+.header{
+    background-color: #b3b3ff;
+    color: #0004ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    margin-left:42%;
+    font-size: 260%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 1% 5%;
+}
+
+.menu a{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.caption h2,p{
+    text-align: center;
+}
+
+.grid{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 6%;
+    padding: 0;
+    position: relative;
+
+    width: 600px;
+    font-family: fantasy;
+}
+
+.origami h3{
+    position: absolute;
+    top:15%;
+    left:45%;
+    opacity: 0;
+}
+.origami:hover h3{
+    opacity: 1;
+}
+
+.origami ul{
+    padding-right: 2%;
+}
+
+.origami:hover {
+    transform: scale(1.2);
+}
+
+.origami:hover img {
+    opacity: 0.30;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+/*makes links chnage color*/
+
+a:link {
+    color: #6e6eff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited,a:link:hover{
+    text-decoration: underline;
+}
